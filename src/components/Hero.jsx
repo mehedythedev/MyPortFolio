@@ -15,24 +15,26 @@ function Hero() {
           transition={{ duration: 0.8 }}
         >
           {/* <img src={myPicture} alt="My profile" className="w-full h-full object-cover" /> */}
-          <img src="https://i.ibb.co.com/KmX867Z/Whats-App-Image-2024-11-06-at-12-11-21-PM.jpg" alt="My profile" className="max-w-[450px] max-h-[450px] ring-4 ring-green-400 dark:ring-indigo-500 object-cover rounded-full  overflow-hidden shadow-lg" />
+          <img src="https://i.ibb.co.com/KmX867Z/Whats-App-Image-2024-11-06-at-12-11-21-PM.jpg" alt="My profile" className="min-w-[330px] md:w-[500px] ring-4 ring-green-400 dark:ring-indigo-500 object-cover rounded-full  overflow-hidden shadow-lg" />
         </motion.div>
 
         {/* Text Section */}
         <div className="md:w-[55%] w-full justify-items-center " >
           <motion.h2
-            className="text-5xl md:text-6xl font-bold text-gray-800 dark:text-white mb-4"
+            className="text-4xl md:text-6xl font-bold text-gray-800 dark:text-white mb-4"
             initial={{ y: -20 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.6 }}
+            style={{ fontFamily: 'Montserrat, sans-serif' }}
           >
             Hello, I’m a MERN Stack Developer
           </motion.h2>
           <motion.p
-            className="text-gray-600 dark:text-gray-300 max-w-xl mx-auto"
+            className="text-gray-700 dark:text-gray-300 max-w-xl mx-auto"
             initial={{ y: 20 }}
             animate={{ y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
+            style={{ fontFamily: 'Roboto, sans-serif' }}
           >
             I specialize in creating full-stack web applications with a focus on efficiency and user experience.
           </motion.p>

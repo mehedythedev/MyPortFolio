@@ -13,7 +13,10 @@ function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         
         {/* Logo */}
-        <h1 className="text-3xl font-bold text-green-300 drop-shadow-2xl dark:text-indigo-400">MD. Mehedi Hasn</h1>
+        <h1 className="text-4xl font-extralight text-green-400 drop-shadow-2xl dark:text-indigo-400" style={{ fontFamily: 'Lobster, sans-serif' }}>
+  MD. Mehedi Hasan
+</h1>
+
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center space-x-6">

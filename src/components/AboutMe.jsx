@@ -7,7 +7,7 @@ function AboutMe() {
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
         
         {/* Section Title */}
-        <h2 className="text-3xl font-bold text-center mb-8">About Me</h2>
+        <h2  style={{ fontFamily: 'Playfair Display , sans-serif' }} className="text-4xl font-bold  text-center mb-8">About Me</h2>
         
         <div className="flex max-w-full flex-col md:flex-row-reverse justify-around items-center gap-12">
           
@@ -32,13 +32,21 @@ function AboutMe() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <p className="text-lg mb-4">
+            <p
+            style={{ fontFamily: 'Poppins, sans-serif' }}
+            className="text-lg mb-4">
+
               Hello! I'm <span className="font-bold text-green-500">Md. Mehedi Hasan</span>, a passionate <span className="text-indigo-500">MERN stack developer</span> from Bangladesh. I love creating interactive, dynamic web applications and continuously strive to improve my skills.
             </p>
-            <p className="text-lg mb-4">
-              With a strong foundation in <span className="font-semibold">React, Node.js, and Express</span>, I enjoy building projects that solve real-world problems and offer excellent user experiences.
+            <p
+            style={{ fontFamily: 'Poppins, sans-serif' }}
+            className="text-lg mb-4">
+              With a strong foundation in <span className="font-semibold">javaScript,React, Node.js, Express js and MongoDB for DataBase</span>, I enjoy building projects that solve real-world problems and offer excellent user experiences.
             </p>
-            <p className="text-lg mb-4">
+            <p
+            
+            style={{ fontFamily: 'Poppins, sans-serif' }}
+            className="text-lg mb-4">
               When I'm not coding, I enjoy reading, playing sports, and exploring new technologies. I'm driven to succeed in the field of web development and am excited to bring innovative solutions to life!
             </p>
             
