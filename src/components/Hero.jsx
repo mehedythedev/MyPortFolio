@@ -7,7 +7,7 @@ function Hero() {
 
 
   return (
-    <Particle>
+ 
     <section className="text-center py-20 bg-green-300 dark:bg-gray-800" id="hero">
       <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
        
@@ -53,7 +53,7 @@ function Hero() {
         </div>
       </div>
     </section>
-    </Particle>
+
   );
 }
 
