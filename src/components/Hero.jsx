@@ -1,11 +1,16 @@
-import React from "react";
+
 import { motion } from "framer-motion";
+import Particle from "./Particle";
 // import myPicture from "../assets/my-picture.jpg"; // Adjust the path if necessary
 
 function Hero() {
+
+
   return (
+    <Particle>
     <section className="text-center py-20 bg-green-300 dark:bg-gray-800" id="hero">
       <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
+       
         
         {/* Animated Image */}
         <motion.div
@@ -48,6 +53,7 @@ function Hero() {
         </div>
       </div>
     </section>
+    </Particle>
   );
 }
 

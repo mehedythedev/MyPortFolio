@@ -1,9 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 function Hero() {
   return (
+    <>
+  
     <motion.section
+    
       className="text-center py-20 bg-gray-100 dark:bg-gray-800"
       id="hero"
       initial={{ opacity: 0 }}
@@ -34,6 +38,7 @@ function Hero() {
         View My Work
       </motion.button>
     </motion.section>
+    </>
   );
 }
 
